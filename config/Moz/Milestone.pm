@@ -133,9 +133,9 @@ sub getMilestoneAB {
     $milestoneAB = $_[0];
   }
   
-  if ($milestoneAB =~ /a/) { return "alpha"; }
-  if ($milestoneAB =~ /b/) { return "beta"; }
-  return "final";
+  if ($milestoneAB =~ /a/) { return "alphadoge"; }
+  if ($milestoneAB =~ /b/) { return "dogebeta"; }
+  return "doge";
 }
 
 #
